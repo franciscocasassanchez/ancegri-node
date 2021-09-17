@@ -1,0 +1,118 @@
+#home{
+    background-image: url('../images/homebg.jpg');
+    background-size: cover;
+}
+#nosotros.pageblock__page--home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#nosotros.pageblock__page--home h2,
+#nosotros.pageblock__page--home h3,
+.pageblock__button{
+    position: relative;
+}
+#nosotros.pageblock__page--home h2{
+    font-size: 8rem;
+    text-transform: capitalize;
+    text-align: left;
+    top: 5rem;
+    right: 20rem;
+}
+#nosotros.pageblock__page--home h3{
+    font-size: 4rem;
+    text-align: right;
+    top: 5rem;
+    left: 5rem;
+    margin-top: 5rem;
+}
+.pageblock__button{
+    transition: all 0.5s;
+    background-color: var(--primary-color);
+    color: var(--clear-color);
+    padding: 3rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    top: 10rem;
+}
+.pageblock__button:hover{
+    background-color: var(--secondary-color);
+    color: var(--clear-color);
+}
+.grid__mv{
+    position: relative;
+    top: 5rem;
+    width: 60%;
+    justify-items: center;
+}
+.grid__mv h2{
+    text-align: center;
+}
+.grid__cell--content{
+    text-align: justify;
+    padding: 1rem;
+}
+#historia.pageblock__page--home div{
+    position: relative;
+    top: 5rem;
+    width: 50%;
+    text-align: justify;
+}
+#historia.pageblock__page--home div h2{
+    font-size: 5rem;
+    text-indent: 1rem;
+    margin-bottom: 2rem;
+}
+#asociados{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#asociados > div{
+    position: relative;
+    top: 10rem;
+    width: 80%;
+    height: 50rem;
+}
+#asociados > h2{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.asociado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items : center;
+}
+#lineas-de-negocio{
+    background-image: url('../images/linesbg.jpg');
+    background-size: cover;
+}
+.lob{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: all 0.5s;
+    text-transform: uppercase;
+}
+.lob:hover{
+    cursor:pointer;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.lob__description{
+    display: none;
+}
+#modelo{
+    background-image: url('../images/modelosbg.jpg');
+    background-size: cover;
+}
+#contacto{
+    background-image: url('../images/contactobg.jpg');
+    background-size: cover;
+}
